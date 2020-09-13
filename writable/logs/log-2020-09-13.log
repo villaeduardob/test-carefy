@@ -1,0 +1,316 @@
+CRITICAL - 2020-09-13 00:03:40 --> syntax error, unexpected 'var_dump' (T_STRING)
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/t...')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#3 [internal function]: spl_autoload_call('App\\Modules\\Adm...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(872): class_exists('\\App\\Modules\\Ad...', true)
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#9 {main}
+CRITICAL - 2020-09-13 00:03:56 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 00:03:59 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 00:04:54 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 00:15:52 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:16:33 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:16:35 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:16:35 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:16:35 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:16:35 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:17:19 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:38:28 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 00:39:18 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:09:06 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:09:19 --> Too few arguments to function App\Modules\Admin\Controllers\Login::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Login->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:11:34 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '../../vendor/autoload.php' (include_path='.:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-13 01:25:23 --> Too few arguments to function App\Modules\Admin\Controllers\Home::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Home->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:25:27 --> Too few arguments to function App\Modules\Admin\Controllers\Home::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Home->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:25:43 --> Too few arguments to function App\Modules\Admin\Controllers\Home::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Home->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:25:56 --> Too few arguments to function App\Modules\Admin\Controllers\Home::__construct(), 0 passed in /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php on line 893 and exactly 1 expected
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(893): App\Modules\Admin\Controllers\Home->__construct()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 01:31:34 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/t...')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#3 [internal function]: spl_autoload_call('App\\Modules\\Adm...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(872): class_exists('\\App\\Modules\\Ad...', true)
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#9 {main}
+CRITICAL - 2020-09-13 01:57:07 --> Object of class GuzzleHttp\Psr7\Response could not be converted to string
+#0 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 33, Array)
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-09-13 01:57:59 --> Object of class GuzzleHttp\Psr7\Response could not be converted to string
+#0 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 29, Array)
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-09-13 01:59:38 --> Object of class GuzzleHttp\Psr7\Response could not be converted to string
+#0 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 29, Array)
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-09-13 02:00:13 --> Object of class GuzzleHttp\Psr7\Response could not be converted to string
+#0 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 33, Array)
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-09-13 02:02:07 --> Object of class GuzzleHttp\Psr7\Response could not be converted to string
+#0 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 28, Array)
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-09-13 02:04:33 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(46): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:04:57 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(46): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:05:31 --> Call to undefined function App\Modules\Admin\Controllers\son_decode()
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#2 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#5 {main}
+CRITICAL - 2020-09-13 02:05:43 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(48): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:08:09 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(53): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:13:56 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(56): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:14:24 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(56): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:14:38 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(56): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:18:27 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(57): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:20:37 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(58): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-09-13 02:21:05 --> Invalid file: {0}
+#0 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 /var/www/html/test-carefy/app/Views/template/layout.php(232): view('admin/login')
+#3 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#4 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#5 /var/www/html/test-carefy/app/Modules/Admin/Controllers/Home.php(45): view('template/layout', Array)
+#6 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(921): App\Modules\Admin\Controllers\Home->index()
+#7 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Home))
+#8 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/test-carefy/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/test-carefy/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
